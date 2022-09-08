@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Reveal_split
+# key: split
+# --
+#+Reveal: split:t
+$0
