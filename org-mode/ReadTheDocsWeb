@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: Read The Docs web
+# key: rtdw
+# --
+* Options                                                  :ARCHIVE:noexport:
+#+SETUPFILE: ~/.config/orgmode/readthedocs.config
+#+TITLE: $1
+#+SUBTITLE: $2
+#+DATE: <`(format-time-string "%Y-%m-%d %a")`>
+#+AUTHOR: `user-full-name`
+#+EMAIL: `user-mail-address`
+#+PROPERTY: header-args :exports none :results none :noweb yes
+#+OPTIONS: author:nil date:nil timestamp:nil num:nil
+#+CALL:
+#+STARTUP: show2levels indent
+$0

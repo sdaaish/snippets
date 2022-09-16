@@ -2,7 +2,7 @@
 # name: ReadTheDocs
 # key: rtd
 # --
-#+SETUPFILE:  "~/.config/emacs.default/etc/org-templates/level-0.org"
+#+SETUPFILE:  ~/.config/emacs.default/etc/org-templates/level-0.org
 #+TITLE: $1
 #+DATE: <`(format-time-string "%Y-%m-%d %a")`>
 #+AUTHOR: `user-full-name`
