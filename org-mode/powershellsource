@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: PowerShell Source
+# key: srcp
+# --
+#+begin_src powershell
+$0
+#+end_src

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Header-Args
+# key: head
+# --
+#+property: header-args :results output replace :exports both :tangle no :eval never-export :noweb yes
+$0
