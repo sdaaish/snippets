@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: Repeat event on Weekdays
+# name: Repeat_event_on_Weekdays
 # key:
 # --
 <%%(memq (calendar-day-of-week date) '(1 2 3 4 5))>
