@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Write-Debug
+# key: ee
+# --
+$excelOptions = ${
+Export-Excel [[-Path] <string>] [-InputObject <Object>] [-Calculate] [-Show] [-WorksheetName <string>] [-Password <string>] [-ClearSheet] [-Append] [-Title <string>] [-TitleFillPattern <ExcelFillStyle>] [-TitleBold] [-TitleSize <int>] [-TitleBackgroundColor <Object>] [-IncludePivotTable] [-PivotTableName <string>] [-PivotRows <string[]>] [-PivotColumns <string[]>] [-PivotData <Object>] [-PivotFilter <string[]>] [-PivotDataToColumn] [-PivotTableDefinition <hashtable>] [-IncludePivotChart] [-PivotChartType <eChartType>] [-NoLegend] [-ShowCategory] [-ShowPercent] [-AutoSize] [-MaxAutoSizeRows <Object>] [-NoClobber] [-FreezeTopRow] [-FreezeFirstColumn] [-FreezeTopRowFirstColumn] [-FreezePane <int[]>] [-AutoFilter] [-BoldTopRow] [-NoHeader] [-RangeName <string>] [-TableName <Object>] [-TableStyle <TableStyles>] [-Barchart] [-PieChart] [-LineChart] [-ColumnChart] [-ExcelChartDefinition <Object[]>] [-HideSheet <string[]>] [-UnHideSheet <string[]>] [-MoveToStart] [-MoveToEnd] [-MoveBefore <Object>] [-MoveAfter <Object>] [-KillExcel] [-AutoNameRange] [-StartRow <int>] [-StartColumn <int>] [-PassThru] [-Numberformat <string>] [-ExcludeProperty <string[]>] [-NoAliasOrScriptPropeties] [-DisplayPropertySet] [-NoNumberConversion <string[]>] [-ConditionalFormat <Object[]>] [-ConditionalText <Object[]>] [-Style <Object[]>] [-CellStyleSB <scriptblock>] [-Activate] [-Now] [-ReturnRange] [-PivotTotals <string>] [-NoTotalsInPivot] [-ReZip] [<CommonParameters>]
+
+}
+
+
+Write-Debug "$1"
+$0

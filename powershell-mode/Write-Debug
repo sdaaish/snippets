@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Write-Debug
+# key: wd
+# --
+Write-Debug "$1"
+$0

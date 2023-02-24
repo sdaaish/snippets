@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Meeting English
+# key: meet
+# --
+*** ${1:Meeting}
+Date: `(org-time-stamp '(16) t)`
+**** Present
+- $2
+**** Agenda
+$3
+**** Notes
+$0

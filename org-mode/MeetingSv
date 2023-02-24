@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Meeting Swedish
+# key: meetsv
+# --
+*** ${1:Möte}
+Datum: ` (org-time-stamp '(16) t)`
+**** Närvarande
+- $2
+**** Agenda
+$3
+**** Anteckningar
+$0

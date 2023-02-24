@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Python Source
+# key: spy
+# --
+#+begin_src python
+$0
+#+end_src
