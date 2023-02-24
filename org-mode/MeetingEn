@@ -2,8 +2,8 @@
 # name: Meeting English
 # key: meet
 # --
-*** ${1:Meeting}
-Date: `(org-time-stamp '(16) t)`
+*** ${1:Meeting Name}
+Date: `(format-time-string "[%Y-%m-%d %H:%M]")`
 **** Present
 - $2
 **** Agenda

@@ -3,7 +3,7 @@
 # key: meetsv
 # --
 *** ${1:Möte}
-Datum: ` (org-time-stamp '(16) t)`
+Datum: `(format-time-string "[%Y-%m-%d %H:%M]")`
 **** Närvarande
 - $2
 **** Agenda
