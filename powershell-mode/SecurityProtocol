@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: TLS protocol
+# key: TLS
+# --
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12 -bor [System.Net.SecurityProtocolType]::Tls13
