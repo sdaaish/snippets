@@ -2,6 +2,7 @@
 # name: PowerShell Source
 # key: spo
 # --
+#+name: $1
 #+begin_src powershell
 $0
 #+end_src
