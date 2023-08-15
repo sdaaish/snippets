@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EncodeBase64
+# key: e64
+# --
+$string = "$1"
+$encodedString = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($string))
+$0

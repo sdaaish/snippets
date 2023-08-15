@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DecodeBase64
+# key: d64
+# --
+$encodedString = "$1"
+$decodedString = [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('$encodedString'))
+$0
