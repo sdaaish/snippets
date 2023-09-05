@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ArrayList
+# key: al
+# --
+$ArrayList = [System.Collections.ArrayList]::new()
+$null = $ArrayList.Add($1)
+$0

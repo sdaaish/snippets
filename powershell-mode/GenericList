@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: GenericList
+# key: gl
+# --
+$List = [System.Collections.Generic.List[${1:$$(yas-choose-value '("String" "Int"))}]]::new()
+$List.Add('$0')
