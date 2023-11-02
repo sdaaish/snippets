@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Write-Verbose
+# key: wv
+# --
+$msg = "{0}" -f $1
+Write-Verbose "$msg"
+$0
