@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: filetime
+# key: ft
+# --
+$0 = str(datetime.now().strftime("%Y%m%dT%H%M%S"))

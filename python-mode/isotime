@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: isotime
+# key: it
+# --
+$0 = str(datetime.now().isoformat("T", timespec="seconds"))
