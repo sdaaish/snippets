@@ -2,6 +2,7 @@
 # name: Shell Source
 # key: sh
 # --
+#+name: $1
 #+begin_src shell
 $0
 #+end_src

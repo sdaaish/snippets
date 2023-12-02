@@ -2,6 +2,9 @@
 # name: Python Source
 # key: spy
 # --
+#+name: $1
 #+begin_src python
+
 $0
+
 #+end_src
