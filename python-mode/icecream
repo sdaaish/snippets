@@ -1,11 +1,16 @@
 # -*- mode: snippet -*-
 # name: IceCream
-# key: IceCream
+# key: icecream
 # --
 from icecream import ic
+from datetime import datetime
 
 def settings():
     ic.configureOutput(prefix=timeStamp)
 
+def timeStamp():
+    t = datetime.now()
+    return "%s |> " % t.isoformat(timespec="milliseconds")
+
 def main():
-    ic()
+    ic($0)
