@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: IceCream
+# key: IceCream
+# --
+from icecream import ic
+
+def settings():
+    ic.configureOutput(prefix=timeStamp)
+
+def main():
+    ic()
