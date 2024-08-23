@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: StopWatch
+# key: StopWatch
+# --
+$timer = [System.Diagnostics.Stopwatch]::new()
+$timer.Start()
+
+$timer.stop()
+$elapsed = $timer.elapsed
+"Total execution time: {0:00}:{1:00}:{2:00}" -f $elapsed.hours,$elapsed.minutes,$elapsed.seconds
