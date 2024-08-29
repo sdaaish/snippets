@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: Write-Debug
+# name: Export-Excel
 # key: ee
 # --
 $excelOptions = ${
@@ -7,6 +7,5 @@ Export-Excel [[-Path] <string>] [-InputObject <Object>] [-Calculate] [-Show] [-W
 
 }
 
-
-Write-Debug "$1"
+Export-Excel "$1"
 $0
