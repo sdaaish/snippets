@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: std.debug.print
+# key: sdbp
+# --
+std.debug.print("$0\n", .{});
