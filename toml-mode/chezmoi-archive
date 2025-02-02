@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: chezmoi-archive
+# key: chezmoi
+# --
+# $1
+["$2"]
+    type = "archive"
+    url = "$3"
+    checksum.sha256 = "{{ $4 }}"
+    refreshPeriod = "168h"
+$0
