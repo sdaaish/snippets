@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: envrc-python
+# key: envrc-python
+# --
+export VIRTUAL_ENV=.venv
+layout python3
