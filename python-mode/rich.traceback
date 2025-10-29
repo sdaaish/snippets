@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rich.traceback
+# key:
+# --
+from rich.traceback import install
+install(show_locals=True)
+$0
