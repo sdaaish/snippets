@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: html-export
+# key: he
+# --
+
+#+property: header-args:powershell :results output replace :exports both output :noweb yes
+#+SETUPFILE: ~/.config/orgmode/readthedocs.config
+#+OPTIONS: author:nil date:nil timestamp:nil num:nil
+$0
