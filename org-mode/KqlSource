@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: KQL Source code
+# key: spk
+# --
+#+name: $1
+#+begin_src kql
+$0
+#+end_src
