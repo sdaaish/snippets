@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: ansible.builtin
+# key: abt
+# expand-env: ((yas-indent-line 'fixed))
+# --
+- name: $1
+  ansible.builtin.$2:
+    $0
